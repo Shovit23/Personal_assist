@@ -1,0 +1,12 @@
+wikipedia
+gtts
+playsound
+file-search
+calender
+tkinter
+py-notifier
+win10toast
+webbrowser
+socket
+request
+
