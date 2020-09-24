@@ -44,13 +44,8 @@ def pro_m(query):
 
         return (pyjokes.get_joke())
 
-    elif answer == "hell":
-        
-        return "Dude . where do you think i came from."
+    
 
-    elif answer == "sayani":
-
-        return "Oh Singer sayani you are talking about. she is very good at singing as you told me and she also has a very sweet voice. but she is totally mad with no brain nd she is an alien"
         
     elif answer == "live":
 
@@ -60,9 +55,6 @@ def pro_m(query):
 
         return "That's ok . if you want me to tell some joke then just type tell me a joke"
 
-    elif answer == "gf":
-
-        return "Sorry ! i am not made for you."
          
     elif answer == "friends":
 
@@ -93,18 +85,12 @@ def pro_m(query):
         A = assistance_details.name
         return "Hey! My name is "+A+" How can i assist you sir ?"
 
-    elif answer == "attend":
-
-        return "Tell Meghashree to mark it for you . she is regular in classes"
-
-    elif answer == "submit":
-
-        return "Tell sanjivini to send assingment. she always do it on time without any mistake"
+    
     
     
 
     elif answer == "name":
-         return "Your name is Shovit Roy"
+         return "Developer name is Shovit Roy"
 
     elif answer == "google":
 
