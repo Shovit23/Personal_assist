@@ -11,7 +11,7 @@ def play_music():
         return "Playing Music from local"
 
     else:
-        return "can't play right now"
+        return "Not avaliable for Windows right now , only for linux"
 
 
 def pause_music():
@@ -20,7 +20,7 @@ def pause_music():
         return "Music Paused"
 
     else:
-        return "can't play right now"
+        return "Not avaliable for Windows right now , only for linux"
 
 def stop_music():
     if ad.is_linux():
@@ -28,7 +28,7 @@ def stop_music():
         return "Music Stopped"
 
     else:
-        return "can't play right now"
+        return "Not avaliable for Windows right now , only for linux"
 
 def next_music():
     if ad.is_linux():
@@ -36,7 +36,7 @@ def next_music():
         return "Playing Next song" 
 
     else:
-        return "can't play right now"
+        return "Not avaliable for Windows right now , only for linux"
 
 def specfic_music(song):
     song = song.replace('play','')
@@ -52,5 +52,5 @@ def specfic_music(song):
             return("Song not found in your system.")
 
     else:
-        return "can't play right now"
+        return "Not avaliable for Windows right now , only for linux"
 
